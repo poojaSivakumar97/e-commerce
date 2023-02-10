@@ -46,6 +46,8 @@
     "eslint": "^8.33.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "prettier": "^2.8.4"
+    "jest": "^27.5.1",
+    "prettier": "^2.8.4",
+    "react-test-renderer": "^18.2.0"
   }
 }
