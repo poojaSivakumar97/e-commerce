@@ -1,6 +1,5 @@
 name:Node continous Integration
-
-on:
+ on:
    pull_request:
     branches: [main]
  jobs:
