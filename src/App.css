@@ -1,0 +1,57 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+    background-color: #ea3bc4 !important;
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    display: flex;
+   
+   flex-direction: row;
+   justify-content: space-between;
+
+
+}
+.heading{
+    flex-grow: 1;
+}
+.navbar{
+    display: flex;
+    flex-grow: 1;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-evenly;
+ 
+}
+a {
+    font-size: 2em;
+  }
+a:link { text-decoration: none;}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    padding: 2%;
+    flex-grow: 1;
+    flex-basis: 16%;
+  
+    display: flex; /* so child elements can use flexbox stuff too! */
+  }
+  .product-image img {
+    max-width: 100%;
+  }
+  .product-info {
+    margin-top: auto;
+  }
+  @media (max-width: 920px) {
+    .product-card {
+      flex: 1 21%;
+    }
+  }
